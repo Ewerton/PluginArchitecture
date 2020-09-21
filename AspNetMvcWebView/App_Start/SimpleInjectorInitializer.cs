@@ -23,10 +23,10 @@ namespace AspNetMvcWebView
             InitializeContainer(container);
 
             container.RegisterMvcControllers(Assembly.GetExecutingAssembly());
+                        
+            DependencyResolver.SetResolver(new SimpleInjectorDependencyResolver(container));
             
             container.Verify();
-            
-            DependencyResolver.SetResolver(new SimpleInjectorDependencyResolver(container));
         }
      
         private static void InitializeContainer(Container container)
