@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleView", "ConsoleView\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreMvcWebView", "AspNetCoreMvcWebView\AspNetCoreMvcWebView.csproj", "{BC3BE68B-5E03-421E-896F-F98F0E50895F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMvcWebView", "AspNetMvcWebView\AspNetMvcWebView.csproj", "{9C037EF9-6EBD-493C-B3FC-FB63AB3A00E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{BC3BE68B-5E03-421E-896F-F98F0E50895F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC3BE68B-5E03-421E-896F-F98F0E50895F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC3BE68B-5E03-421E-896F-F98F0E50895F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C037EF9-6EBD-493C-B3FC-FB63AB3A00E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C037EF9-6EBD-493C-B3FC-FB63AB3A00E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C037EF9-6EBD-493C-B3FC-FB63AB3A00E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C037EF9-6EBD-493C-B3FC-FB63AB3A00E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +54,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4502F447-EE0D-41BE-B173-B33F04125D6C} = {A4877F17-561E-48C8-B833-F5C02BEA8433}
 		{BC3BE68B-5E03-421E-896F-F98F0E50895F} = {A4877F17-561E-48C8-B833-F5C02BEA8433}
+		{9C037EF9-6EBD-493C-B3FC-FB63AB3A00E0} = {A4877F17-561E-48C8-B833-F5C02BEA8433}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A3F384AE-60A8-4B46-BF8D-988D3DF0B253}
