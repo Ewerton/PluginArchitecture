@@ -1,4 +1,4 @@
-# PluginArchitecture
+# Plugin Architecture
 A simple solution to demonstrate how to implement a "plugin-like" behavior in a .net assembly.
 
 In a "plugin-like" mode, the assembly knows how to register your own dependencies (like <a href="https://github.com/Ewerton/PluginArchitecture/blob/master/Data/DependencyInjectionPackage.cs" target="_blank">this</a> or <a href="https://github.com/Ewerton/PluginArchitecture/blob/master/Business/DependencyInjectionPackage.cs" target="_blank">this</a>, so, you just need to compile and copy the assembly to the program folder without needing to update the whole program.
